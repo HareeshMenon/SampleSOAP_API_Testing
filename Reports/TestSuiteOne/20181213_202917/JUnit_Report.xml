@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteOne" time="43" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuiteOne" tests="2" failures="0" errors="0" time="43" timestamp="2018-12-13 20:29:30" hostname="Administrator - DESKTOP-3DAE0Q4" id="Test Suites/TestSuiteOne">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Sample SOAP API Testing Project\\Reports\\TestSuiteOne\\20181213_202917"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Sample SOAP API Testing Project\\Reports\\TestSuiteOne\\20181213_202917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP-3DAE0Q4"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/TestOne" classname="Test Cases/TestOne" status="PASSED">
+         <system-out><![CDATA[2018-12-13 20:29:31 - [TEST_CASE][PASSED] - Test Cases/TestOne: Test Cases/TestOne
+
+2018-12-13 20:29:33 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CountryInfoSOAPService/GetCountryListByName")): Send request successfully
+
+2018-12-13 20:29:51 - [MESSAGE][INFO] - HAR: C:\Users\Administrator\Katalon Studio\Sample SOAP API Testing Project\Reports\TestSuiteOne\20181213_202917\requests\main\0.har
+
+2018-12-13 20:29:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-13 20:29:51 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("CountryInfoSOAPService/GetCountryListByName")): Send request and verify the response successfully
+
+2018-12-13 20:30:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-13 20:30:01 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-13 20:30:01 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-13 20:30:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-13 20:30:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-13 20:30:01 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2018-12-13 20:30:01 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-13 20:30:01 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestTwo_APIChaining" classname="Test Cases/TestTwo_APIChaining" status="PASSED">
+         <system-out><![CDATA[2018-12-13 20:30:01 - [TEST_CASE][PASSED] - Test Cases/TestTwo_APIChaining: Test Cases/TestTwo_APIChaining
+
+2018-12-13 20:30:02 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCountryListByName")): Send request successfully
+
+2018-12-13 20:30:10 - [MESSAGE][INFO] - HAR: C:\Users\Administrator\Katalon Studio\Sample SOAP API Testing Project\Reports\TestSuiteOne\20181213_202917\requests\main\1.har
+
+2018-12-13 20:30:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-13 20:30:10 - [TEST_STEP][PASSED] - xml1 = responseBodyContent: null
+
+2018-12-13 20:30:11 - [TEST_STEP][PASSED] - dataValue = XmlSlurper().parseText(xml1): null
+
+2018-12-13 20:30:11 - [TEST_STEP][PASSED] - countryCode = sISOCode.text(): null
+
+2018-12-13 20:30:11 - [TEST_STEP][PASSED] - countryISOCode = countryCode: null
+
+2018-12-13 20:30:11 - [TEST_STEP][PASSED] - println(".... Value for global variable is " + countryISOCode): null
+
+2018-12-13 20:30:11 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CountryInfoSOAPService/GetCapital")): Send request successfully
+
+2018-12-13 20:30:13 - [MESSAGE][INFO] - HAR: C:\Users\Administrator\Katalon Studio\Sample SOAP API Testing Project\Reports\TestSuiteOne\20181213_202917\requests\main\2.har
+
+2018-12-13 20:30:13 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-13 20:29:30 - [TEST_SUITE][PASSED] - TestSuiteOne: Test Cases/TestTwo_APIChaining]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

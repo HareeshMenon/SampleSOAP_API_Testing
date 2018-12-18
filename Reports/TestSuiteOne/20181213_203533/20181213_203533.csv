@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteOne,,,2018-12-13 20:35:42,2018-12-13 20:36:29,47.988s,FAILED
+,,,,,,
+Test Cases/TestOne,,,2018-12-13 20:35:43,2018-12-13 20:36:06,22.997s,PASSED
+"sendRequest(findTestObject(""CountryInfoSOAPService/GetCountryListByName""))",,,2018-12-13 20:35:46,2018-12-13 20:36:01,14.304s,PASSED
+"sendRequestAndVerify(findTestObject(""CountryInfoSOAPService/GetCountryListByName""))",,,2018-12-13 20:36:01,2018-12-13 20:36:06,5.583s,PASSED
+,,,,,,
+Test Cases/TestTwo_APIChaining,,,2018-12-13 20:36:06,2018-12-13 20:36:29,23.019s,FAILED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCountryListByName""))",,,2018-12-13 20:36:08,2018-12-13 20:36:29,21.149s,FAILED

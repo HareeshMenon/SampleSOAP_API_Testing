@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenTestingDemoSuite,,,2018-12-18 13:32:40,2018-12-18 13:33:01,20.357s,PASSED
+,,,,,,
+Test Cases/DataDrivenTestDemo,,,2018-12-18 13:32:41,2018-12-18 13:32:53,11.390s,PASSED
+"println(""...value of country code is "" + CountryCode)",,,2018-12-18 13:32:42,2018-12-18 13:32:42,0.024s,PASSED
+"println(""...value of country name is "" + Name)",,,2018-12-18 13:32:42,2018-12-18 13:32:42,0.005s,PASSED
+"println(""...value of currency is "" + CurrencyUnit)",,,2018-12-18 13:32:42,2018-12-18 13:32:42,0.005s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/CountryName"", [""CountryCode"":CountryCode]))",,,2018-12-18 13:32:42,2018-12-18 13:32:50,7.441s,PASSED
+"verifyElementText(response1, ""CountryNameResponse.CountryNameResult"", Name)",,,2018-12-18 13:32:50,2018-12-18 13:32:50,0.566s,PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,2018-12-18 13:32:50,2018-12-18 13:32:52,2.043s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", CurrencyUnit)",,,2018-12-18 13:32:52,2018-12-18 13:32:53,0.090s,PASSED
+,,,,,,
+Test Cases/DataDrivenTestDemo,,,2018-12-18 13:32:53,2018-12-18 13:32:57,4.132s,PASSED
+"println(""...value of country code is "" + CountryCode)",,,2018-12-18 13:32:53,2018-12-18 13:32:53,0.004s,PASSED
+"println(""...value of country name is "" + Name)",,,2018-12-18 13:32:53,2018-12-18 13:32:53,0.002s,PASSED
+"println(""...value of currency is "" + CurrencyUnit)",,,2018-12-18 13:32:53,2018-12-18 13:32:53,0.017s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/CountryName"", [""CountryCode"":CountryCode]))",,,2018-12-18 13:32:53,2018-12-18 13:32:55,2.066s,PASSED
+"verifyElementText(response1, ""CountryNameResponse.CountryNameResult"", Name)",,,2018-12-18 13:32:55,2018-12-18 13:32:55,0.074s,PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,2018-12-18 13:32:55,2018-12-18 13:32:57,1.862s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", CurrencyUnit)",,,2018-12-18 13:32:57,2018-12-18 13:32:57,0.052s,PASSED
+,,,,,,
+Test Cases/DataDrivenTestDemo,,,2018-12-18 13:32:57,2018-12-18 13:33:01,3.904s,PASSED
+"println(""...value of country code is "" + CountryCode)",,,2018-12-18 13:32:57,2018-12-18 13:32:57,0.002s,PASSED
+"println(""...value of country name is "" + Name)",,,2018-12-18 13:32:57,2018-12-18 13:32:57,0.002s,PASSED
+"println(""...value of currency is "" + CurrencyUnit)",,,2018-12-18 13:32:57,2018-12-18 13:32:57,0.001s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/CountryName"", [""CountryCode"":CountryCode]))",,,2018-12-18 13:32:57,2018-12-18 13:32:59,1.939s,PASSED
+"verifyElementText(response1, ""CountryNameResponse.CountryNameResult"", Name)",,,2018-12-18 13:32:59,2018-12-18 13:32:59,0.050s,PASSED
+"response2 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCurrency"", [""CountryCode"":CountryCode]))",,,2018-12-18 13:32:59,2018-12-18 13:33:01,1.828s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", CurrencyUnit)",,,2018-12-18 13:33:01,2018-12-18 13:33:01,0.060s,PASSED
